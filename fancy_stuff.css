@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(75, 156, 82)
+}
+
+h1{
+    color: rgb(75, 156, 82);
+    font-family: monospace;
+    text-align: center;
+    background: rgb(135,65,13)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(135,65,13);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(75, 156, 82);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  rgb(41, 85, 44);;
+  }
+h2{
+    color: rgb(75, 156, 82);
+    font-family: monospace;
+    text-align: center;
+    background: rgb(135,65,13)
+}
+h3{
+    color: rgb(135,65,13);
+    font-family: monospace;
+    text-align: center;
+}
+h4{
+    color: rgb(135,65,13);
+    font-family: monospace;
+    text-align: center
+}
+p{
+    color: rgb(135,65,13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-top-style: double;
+    border-top-color:  rgb(135,65,13);
+    border-left-style: double;
+    border-left-color:  rgb(135,65,13);
+    border-right-style: double;
+    border-right-color:  rgb(135,65,13);
+    border-bottom-style: double;
+    border-bottom-color:  rgb(135,65,13);
+    margin-left: 100px;
+    margin-right: 100px
+}
+
+img{
+    max-width: 50%;
+    height: 50%
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+}
+/*button*/
+a:link, a:visited {
+    background-color: rgb(135,65,13);
+    color:  rgb(75, 156, 82);
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(135,65,13);
+  }
