@@ -1,19 +1,12 @@
 body {
-    background-color: rgb(75, 156, 82)
-}
-
-h1{
-    color: rgb(75, 156, 82);
-    font-family: monospace;
-    text-align: center;
-    background: rgb(135,65,13)
+    background-color: rgb(238, 238, 214)
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(135,65,13);
+    background-color: rgb(117, 58, 144);
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
@@ -25,7 +18,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(75, 156, 82);
+    color: rgb(238, 238, 214);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,38 +27,53 @@ ul {
   li a:hover {
     background-color:  rgb(41, 85, 44);;
   }
-h2{
-    color: rgb(75, 156, 82);
+
+h1{
+    color: rgb(238, 238, 214);
     font-family: monospace;
     text-align: center;
-    background: rgb(135,65,13)
+    background: rgb(117, 58, 144);
+    margin-left: 33.33%;
+    margin-right: 33.33%
+}
+
+h2{
+    color: rgb(238, 238, 214);
+    font-family: monospace;
+    text-align: center;
+    background: rgb(117, 58, 144);
+    margin-left: 33.33%;
+    margin-right: 33.33%
 }
 h3{
-    color: rgb(135,65,13);
+    color: rgb(117, 58, 144);
     font-family: monospace;
     text-align: center;
 }
 h4{
-    color: rgb(135,65,13);
+    color: rgb(117, 58, 144);
     font-family: monospace;
     text-align: center
 }
 p{
-    color: rgb(135,65,13);
+    color: rgb(117, 58, 144);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    border-top-style: double;
-    border-top-color:  rgb(135,65,13);
-    border-left-style: double;
-    border-left-color:  rgb(135,65,13);
-    border-right-style: double;
-    border-right-color:  rgb(135,65,13);
-    border-bottom-style: double;
-    border-bottom-color:  rgb(135,65,13);
     margin-left: 100px;
     margin-right: 100px
 }
-
+div{
+    border-top-style: double;
+    border-top-color:  rgb(117, 58, 144);
+    border-left-style: double;
+    border-left-color:  rgb(117, 58, 144);
+    border-right-style: double;
+    border-right-color:  rgb(117, 58, 144);
+    border-bottom-style: double;
+    border-bottom-color:  rgb(117, 58, 144);
+    margin-left: 100px;
+    margin-right: 100px
+}
 img{
     max-width: 50%;
     height: 50%
@@ -78,8 +86,8 @@ img{
 }
 /*button*/
 a:link, a:visited {
-    background-color: rgb(135,65,13);
-    color:  rgb(75, 156, 82);
+    background-color: rgb(117, 58, 144);
+    color:  rgb(238, 238, 214);
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
@@ -87,5 +95,5 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: rgb(135,65,13);
+    background-color: rgb(117, 58, 144);
   }
